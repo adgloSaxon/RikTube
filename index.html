@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>RikTube</title>
+  </head>
+  <body>
+    <div class="searchBar">
+      <div class="logo">
+        <a href="#">
+          <img src="images/dropdown.svg" alt="drop menu" />
+        </a>
+        <a class="riktube" href="#">
+          <img src="images/unnamed 1.png" alt="YTlogo" class="youtube-logo" />
+          <img src="images/Capture.PNG" alt="Riklogo" class="youtube-logo" />
+        </a>
+      </div>
+
+
+
+
+      
+        <form class="search-bar">
+          <input type="text" class="search-input" placeholder="Search" aria-label="Search"/>
+            <button type="submit" class="search-btn">
+              <img src="images/magnify.svg" alt="" />
+            </button>
+        </form>
+      
+
+
+
+      
+      <div class="icons">
+        <a href="#">
+          <img src="images/video-plus.svg" alt="Upload Video" />
+        </a>
+
+        <a href="#">
+          <img src="images/apps.svg" alt="Apps" />
+        </a>
+
+        <a href="#">
+          <img src="images/bell.svg" alt="Notifications" />
+        </a>
+
+        <a href="#">
+          <img
+            class="menu-channel-icon"
+            src="images/rikon.jpg"
+            alt="Your Channel"
+          />
+        </a>
+      </div>
+    </div>
+
+
+
+    <div class="mainbody">
+      <div class="categories">
+        <div class="categoriesSection">
+          <span class="category" style="background-color: #e5e5e5;">
+            <a href="#">
+              <img src="images/home.svg" alt="home">
+            </a>
+            <span>Home</span>
+          </span>
+          <span class="category" >
+            <a href="#">
+              <img src="images/fire.svg" alt="home">
+            </a>
+            <span>Trending</span>
+          </span>
+          <span class="category">
+            <a href="#">
+              <img src="images/subscriptions.svg" alt="home">
+            </a>
+            <span>Subcriptions</span>
+          </span>
+
+          <span class="catline"></span>
+
+
+
+
+          <span class="category">
+            <a href="#">
+              <img src="images/video.svg" alt="home">
+            </a>
+            <span>Library</span>
+          </span>
+          <span class="category">
+            <a href="#">
+              <img src="images/history.svg" alt="home">
+            </a>
+            <span>History</span>
+          </span>
+          <span class="category">
+            <a href="#">
+              <img src="images/slideshow.svg" alt="home">
+            </a>
+            <span>Your videos</span>
+          </span>
+          <span class="category">
+            <a href="#">
+              <img src="images/later.svg" alt="home">
+            </a>
+            <span>Watch later</span>
+          </span>
+          <span class="category" >
+            <a href="#">
+              <img src="images/thumb.svg" alt="home">
+            </a>
+            <span>Liked videos</span>
+          </span>
+
+          <span class="catline"></span>
+
+          <h4 class="subhead">SUBSCRIPTIONS</h4>
+
+          <span onclick="window.location='bob.html'" class="category">
+            <a href="#">
+              <img src="images/bobon.jpg" 
+              class="menu-channel-icon" 
+              alt="tubers">
+            </a>
+            <span>Bobby Junes</span>
+          </span>
+          <span onclick="window.location='dan.html'" class="category" >
+            <a href="#">
+              <img src="images/danon.jpg" 
+              class="menu-channel-icon" 
+              alt="tubers">
+            </a>
+            <span>Danglo4</span>
+          </span>
+          
+        </div>
+
+      </div>
+
+      <div class="videos">
+        <div class="Top-categories">
+          <section class="CatSec">
+            <!-- great way to create 10 buttons in 1 line 
+                  button.category{Category $}*10 -->
+            <button class="cat active">All</button>
+            <button class="cat">Entertainment</button>
+            <button class="cat">Lifestyle</button>
+            <button class="cat">Films</button>
+            <button class="cat">Music</button>
+            <button class="cat">Cooking</button>
+            <button class="cat">Coronavirus</button>
+            <button class="cat">Politics</button>
+            <button class="cat">Industry</button>
+            <button class="cat">Leisure</button>
+            <button class="cat">Google</button>
+            <button class="cat">CSS</button>
+            <button class="cat">Videos</button>
+          </section>
+        </div>
+
+        <div class="videosGrid">
+          <div class="video">
+            <div class="thumbnail">
+                <iframe  
+                src="https://www.youtube.com/embed/iXudU9kc6DY" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="images/rikon.jpg" alt="author">
+              </div>
+              <div class="text">
+                <h3>Battlefield 1 seek and destroy</h3>
+                <a href="#">Rik_Glover</a>
+                <span>50M Views • 6 months ago</span> 
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <iframe  
+              src="https://www.youtube.com/embed/3pCoDZRg_tk" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+              encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="images/rikon.jpg" alt="author">
+              </div>
+              <div class="text">
+                <h3>Battlefield 1 the unstoppable 08/18</h3>
+                <a href="#">Rik_Glover</a>
+                <span>95M Views • Feb 21, 2020</span> 
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <iframe 
+              src="https://www.youtube.com/embed/6vOuF3tyDtw" 
+              frameborder="0" allow="accelerometer; autoplay; 
+              clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+              </iframe>
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="images/rikon.jpg" alt="author">
+              </div>
+              <div class="text">
+                <h3>Battlfield 1 beast mode</h3>
+                <a href="#">Rik_Glover</a>
+                <span>75M Views • Mar 3, 2018</span> 
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <iframe 
+              src="https://www.youtube.com/embed/iP3KBaWv5t4" 
+              frameborder="0" allow="accelerometer; autoplay; 
+              clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+              </iframe>
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="images/rikon.jpg" alt="author">
+              </div>
+              <div class="text">
+                <h3>Battlefield 1 in the name of the tsar aggressive play</h3>
+                <a href="#">Rik_Glover</a>
+                <span>66M Views • Oct 22, 2017</span> 
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <iframe 
+              src="https://www.youtube.com/embed/iaSEwMTlviI" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+              encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="images/rikon.jpg" alt="author">
+              </div>
+              <div class="text">
+                <h3>Battlefield 1 sniper edition 2</h3>
+                <a href="#">Rik_Glover</a>
+                <span>65M Views • Sep 29, 2017</span> 
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <iframe 
+              src="https://www.youtube.com/embed/R6DhmNldxRE" frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+              gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="images/rikon.jpg" alt="author">
+              </div>
+              <div class="text">
+                <h3>Battlefield 1 sniper kills edition</h3>
+                <a href="#">Rik_Glover</a>
+                <span>88M Views • Jul 29, 2017</span> 
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="http://unsplash.it/250/150?gravity=center" alt="thumb">
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="http://unsplash.it/36/36?gravity=center" alt="author">
+              </div>
+              <div class="text">
+                <h3>Build a YouTube UI clone with HTML/CSS</h3>
+                <a href="#">adgloSaxon</a>
+                <span>1K view • 1 year ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="http://unsplash.it/250/150?gravity=center" alt="thumb">
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="http://unsplash.it/36/36?gravity=center" alt="author">
+              </div>
+              <div class="text">
+                <h3>Build a YouTube UI clone with HTML/CSS</h3>
+                <a href="#">adgloSaxon</a>
+                <span>1K view • 1 year ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="http://unsplash.it/250/150?gravity=center" alt="thumb">
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="http://unsplash.it/36/36?gravity=center" alt="author">
+              </div>
+              <div class="text">
+                <h3>Build a YouTube UI clone with HTML/CSS</h3>
+                <a href="#">adgloSaxon</a>
+                <span>1K view • 1 year ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="http://unsplash.it/250/150?gravity=center" alt="thumb">
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="http://unsplash.it/36/36?gravity=center" alt="author">
+              </div>
+              <div class="text">
+                <h3>Build a YouTube UI clone with HTML/CSS</h3>
+                <a href="#">adgloSaxon</a>
+                <span>1K view • 1 year ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="http://unsplash.it/250/150?gravity=center" alt="thumb">
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="http://unsplash.it/36/36?gravity=center" alt="author">
+              </div>
+              <div class="text">
+                <h3>Build a YouTube UI clone with HTML/CSS</h3>
+                <a href="#">adgloSaxon</a>
+                <span>1K view • 1 year ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="http://unsplash.it/250/150?gravity=center" alt="thumb">
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="http://unsplash.it/36/36?gravity=center" alt="author">
+              </div>
+              <div class="text">
+                <h3>Build a YouTube UI clone with HTML/CSS</h3>
+                <a href="#">adgloSaxon</a>
+                <span>1K view • 1 year ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="http://unsplash.it/250/150?gravity=center" alt="thumb">
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="http://unsplash.it/36/36?gravity=center" alt="author">
+              </div>
+              <div class="text">
+                <h3>Build a YouTube UI clone with HTML/CSS</h3>
+                <a href="#">adgloSaxon</a>
+                <span>1K view • 1 year ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="http://unsplash.it/250/150?gravity=center" alt="thumb">
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="http://unsplash.it/36/36?gravity=center" alt="author">
+              </div>
+              <div class="text">
+                <h3>Build a YouTube UI clone with HTML/CSS</h3>
+                <a href="#">adgloSaxon</a>
+                <span>1K view • 1 year ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="http://unsplash.it/250/150?gravity=center" alt="thumb">
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="http://unsplash.it/36/36?gravity=center" alt="author">
+              </div>
+              <div class="text">
+                <h3>Build a YouTube UI clone with HTML/CSS</h3>
+                <a href="#">adgloSaxon</a>
+                <span>1K view • 1 year ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="http://unsplash.it/250/150?gravity=center" alt="thumb">
+            </div>
+            <div class="details">
+              <div class="author">
+                <img src="http://unsplash.it/36/36?gravity=center" alt="author">
+              </div>
+              <div class="text">
+                <h3>Build a YouTube UI clone with HTML/CSS</h3>
+                <a href="#">adgloSaxon</a>
+                <span>1K view • 1 year ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <p>&copy; 2020 adgloSaxon</p>
+        </div>
+
+
+      </div>
+      
+    </div>
+
+    
+
+
+  </body>
+</html>
